@@ -16,69 +16,46 @@ Blog
 </p>
 
 ## 👋 Introduction
-
-在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。
-
-如果你想要搭建一个类似的站点，可直接 [Fork](https://github.com/kuizuo/blog/fork) 本仓库使用，或者通过 [StackBlitz](https://stackblitz.com/github/kuizuo/blog) 在线运行本项目，或通过 [Vercel](https://vercel.com/new/clone?repository-url=https://github.com/kuizuo/blog/tree/main&project-name=blog&repo-name=blog) 一键部署。
+In this blog, the objective is to present a variety of challenges and their respective solutions encountered in different technology stacks. The goal is to foster a deeper understanding of contemporary technology stacks and their practical application in development projects. It is sincerely hoped that the experiences in software development shared here can serve as a source of inspiration for readers.
 
 ## ✨ Features
 
-- ✍️ **Markdown** - 写作方便
-- 🎨 **Beautiful** - 整洁，美观
-- 🖥️ **PWA** - 支持 PWA，可安装，离线可用
-- 🏞️ **i18n** - 支持国际化
-- 💯 **SEO** - 搜索引擎优化，易于收录
-- 📊 **谷歌分析** - 支持 Google Analytics
-- 🔎 **全文搜索** - 支持 [Algolia DocSearch](https://github.com/algolia/docsearch)
-- 🗃️ **博文视图** - 不同的博文视图，列表、宫格、卡片
-- 🌈 **资源导航** - 收集并分享有用、有意思的资源
-- 📦 **项目展示** - 展示你的项目，可用作于作品集
+- ✍️ **Markdown** - Convenient for writing.
+- 🎨 **Beautiful** - Clean and visually appealing.
+- 🖥️ **PWA** - Supports PWA, installable, and can be used offline.
+- 🏞️ **i18n** - Supports internationalization.
+- 💯 **SEO** - Search engine optimization, easy to index.
+- 📊 **Google Analytics** - Supports Google Analytics.
+- 🔎 **Full-text Search** - Supports [Algolia DocSearch](https://github.com/algolia/docsearch).
+- 🗃️ **Blog Views** - Different blog views: list, grid, card.
+- 🌈 **Resource Navigation** - Collects and shares useful and interesting resources.
+- 📦 **Project Showcase** - Showcases your projects, can be used as a portfolio.
 
-我的修改：[Docusaurus 主题魔改](https://kuizuo.cn/docs/docusaurus-guides)
 
 ## 📊 Catalogue
 
 ```bash
-├── blog                           # 博客
+├── blog                           # Blog
 │   ├── first-blog.md
-├── docs                           # 文档/笔记
+├── docs                           # Documentation/Notes
 │   └── doc.md
-├── data                           # 项目/导航/友链数据
-│   ├── friend.ts                  # 友链
-│   ├── project.ts                 # 项目
-│   └── resource.ts                # 资源导航
-├── i18n                           # 国际化
+├── data                           # Project/Navigation/Friend Link Data
+│   ├── friend.ts                  # Friend Links
+│   ├── project.ts                 # Projects
+│   └── resource.ts                # Resource Navigation
+├── i18n                           # Internationalization
 ├── src
-│   ├── components                 # 组件
-│   ├── css                        # 自定义CSS
-│   ├── pages                      # 自定义页面
-│   ├── plugin                     # 自定义插件
-│   └── theme                      # 自定义主题组件
-├── static                         # 静态资源文件
-│   └── img                        # 静态图片
-├── docusaurus.config.js           # 站点的配置信息
-├── sidebars.js                    # 文档的侧边栏
+│   ├── components                 # Components
+│   ├── css                        # Custom CSS
+│   ├── pages                      # Custom Pages
+│   ├── plugin                     # Custom Plugins
+│   └── theme                      # Custom Theme Components
+├── static                         # Static Resource Files
+│   └── img                        # Static Images
+├── docusaurus.config.js           # Site Configuration Information
+├── sidebars.js                    # Documentation Sidebar
 ├── package.json
 ├── tsconfig.json
 └── yarn.lock
 ```
 
-## 📥 Start
-
-```sh
-git clone https://github.com/kuizuo/blog.git
-cd blog
-yarn
-yarn start
-```
-
-Build
-
-```sh
-yarn run build
-```
-
-## 📝License
-
-[MIT](./LICENSE)
-# blog
